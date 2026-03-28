@@ -137,7 +137,7 @@ problems/
 
 - 💬 [Discussions](https://github.com/simucode-community/problem-specs/discussions) — ideas, bugs, solutions
 - 🌐 [simucode.online](https://simucode.online) — the platform
-- 📨 Built in Mysuru, India by [@rrg2003](https://github.com/rrg2003)
+- 📨 Built in Bengaluru, India by [@rrg2003](https://github.com/rrg2003)
 
 ---
 
