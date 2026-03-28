@@ -107,11 +107,11 @@ We welcome contributions to **problem specs** — not testscripts or solutions.
 Open a [Discussion in 💡 Problem Ideas](https://github.com/simucode-community/problem-specs/discussions/categories/problem-ideas) with:
 
 ```
-**Problem Title:** [e.g. "ROS2 Action Server with Timeout Handling"]
-**ROS2 Concept:** [e.g. rclpy actions, GoalHandle, CancelCallback]
-**Difficulty:** Easy / Medium / Hard
-**Why useful:** [e.g. "Addverb asks this in interviews. Tests whether you can handle preemption."]
-**Example input/output:** [brief description]
+Problem Title: [e.g. "ROS2 Action Server with Timeout Handling"]
+ROS2 Concept: [e.g. rclpy actions, GoalHandle, CancelCallback]
+Difficulty: Easy / Medium / Hard
+Why useful: [e.g. "Addverb asks this in interviews. Tests whether you can handle preemption."]
+Example input/output: [brief description]
 ```
 
 The SimuCode team writes and validates the testScript. Once accepted, your name appears  
