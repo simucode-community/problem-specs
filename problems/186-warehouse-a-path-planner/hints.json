@@ -1,0 +1,18 @@
+{
+  "problem_id": 186,
+  "title": "Warehouse A* Path Planner",
+  "hints": [
+    {
+      "level": 1,
+      "text": "Use a binary heap (heapq) for the open set to efficiently get the node with minimum f-score. Store tuples as (f_score, counter, node) where counter breaks ties to avoid comparing nodes directly"
+    },
+    {
+      "level": 2,
+      "text": "Cache heuristic values in a dictionary to avoid recomputation. For better performance, consider using a closed set implemented as a set() rather than checking if nodes exist in came_from"
+    },
+    {
+      "level": 3,
+      "text": "For dynamic replanning, store the previous path and only recompute when obstacles appear along the current path. Use lazy evaluation: don't immediately replan when the map updates, wait until the next planning request"
+    }
+  ]
+}

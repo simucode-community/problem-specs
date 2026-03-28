@@ -1,0 +1,14 @@
+{
+  "problem_id": 154,
+  "title": "Multi-Robot Task Allocator (Greedy)",
+  "hints": [
+    {
+      "level": 1,
+      "text": "`dist = sqrt((x2-x1)^2 + (y2-y1)^2)`"
+    },
+    {
+      "level": 2,
+      "text": "Greedy approach: Pick best local option. Not optimal (could block others), but fast."
+    }
+  ]
+}

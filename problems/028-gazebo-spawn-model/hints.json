@@ -1,0 +1,14 @@
+{
+  "problem_id": 28,
+  "title": "Gazebo - Spawn Model",
+  "hints": [
+    {
+      "level": 1,
+      "text": "The XML field requires a full URDF string (can be simple)."
+    },
+    {
+      "level": 2,
+      "text": "Wait for service to be available: `client.wait_for_service()`."
+    }
+  ]
+}

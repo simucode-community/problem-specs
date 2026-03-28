@@ -1,0 +1,14 @@
+{
+  "problem_id": 16,
+  "title": "Launch Arguments & Substitutions",
+  "hints": [
+    {
+      "level": 1,
+      "text": "`DeclareLaunchArgument('name', default_value='...')`"
+    },
+    {
+      "level": 2,
+      "text": "`launch.substitutions.LaunchConfiguration('name')` to use it."
+    }
+  ]
+}

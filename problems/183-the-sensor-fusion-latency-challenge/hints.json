@@ -1,0 +1,22 @@
+{
+  "problem_id": 183,
+  "title": "The Sensor Fusion Latency Challenge",
+  "hints": [
+    {
+      "level": 1,
+      "text": "Use message_filters::TimeSynchronizer for sensor synchronization"
+    },
+    {
+      "level": 2,
+      "text": "Consider using std::thread or ROS2 MultiThreadedExecutor"
+    },
+    {
+      "level": 3,
+      "text": "Profile your code using ros2 topic hz and top commands"
+    },
+    {
+      "level": 4,
+      "text": "Implement exponential moving average for smooth fusion"
+    }
+  ]
+}

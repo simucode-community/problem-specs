@@ -1,0 +1,14 @@
+{
+  "problem_id": 45,
+  "title": "QoS Profiles - Deadline & Lifespan",
+  "hints": [
+    {
+      "level": 1,
+      "text": "`QoSProfile(deadline=Duration(seconds=1))`"
+    },
+    {
+      "level": 2,
+      "text": "Use `rclpy.duration.Duration`."
+    }
+  ]
+}

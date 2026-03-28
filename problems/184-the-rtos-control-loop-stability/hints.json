@@ -1,0 +1,18 @@
+{
+  "problem_id": 184,
+  "title": "The RTOS Control Loop Stability",
+  "hints": [
+    {
+      "level": 1,
+      "text": "Use Ziegler-Nichols method for initial tuning: Start with Kp only, increase until oscillation, then add Ki and Kd."
+    },
+    {
+      "level": 2,
+      "text": "Ensure your QoS settings match the publisher/subscriber requirements. Reliable + Volatile is often good for control."
+    },
+    {
+      "level": 3,
+      "text": "Clamp your integral term to prevent windup when actuators are saturated."
+    }
+  ]
+}

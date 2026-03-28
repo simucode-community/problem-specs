@@ -1,0 +1,18 @@
+{
+  "problem_id": 1,
+  "title": "Simple Publisher",
+  "hints": [
+    {
+      "level": 1,
+      "text": "Use `self.create_publisher()` in your node's `__init__` method."
+    },
+    {
+      "level": 2,
+      "text": "Use a timer with `self.create_timer()` to publish periodically."
+    },
+    {
+      "level": 3,
+      "text": "Don't forget to import the message type: `from std_msgs.msg import String`"
+    }
+  ]
+}

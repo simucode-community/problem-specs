@@ -1,0 +1,14 @@
+{
+  "problem_id": 15,
+  "title": "Python Launch - Basic Node Launch",
+  "hints": [
+    {
+      "level": 1,
+      "text": "`Node(package='...', executable='...', parameters=[...], remappings=[...])`"
+    },
+    {
+      "level": 2,
+      "text": "Arguments allow you to name parameters: `{'param_name': 'param_value'}`"
+    }
+  ]
+}

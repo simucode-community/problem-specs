@@ -1,0 +1,10 @@
+{
+  "problem_id": 101,
+  "title": "Publish Robot Temperature Status",
+  "hints": [
+    {
+      "level": 1,
+      "text": "Use a global or class variable `self.temp` to store state."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "problem_id": 24,
+  "title": "Static Transform Broadcaster",
+  "hints": [
+    {
+      "level": 1,
+      "text": "Use `StaticTransformBroadcaster`."
+    },
+    {
+      "level": 2,
+      "text": "You must create a `presistent` broadcaster (usually stored in `self`)."
+    },
+    {
+      "level": 3,
+      "text": "Message type: `geometry_msgs/msg/TransformStamped`."
+    }
+  ]
+}

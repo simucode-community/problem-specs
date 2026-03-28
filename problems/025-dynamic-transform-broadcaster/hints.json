@@ -1,0 +1,18 @@
+{
+  "problem_id": 25,
+  "title": "Dynamic Transform Broadcaster",
+  "hints": [
+    {
+      "level": 1,
+      "text": "Use `TransformBroadcaster`."
+    },
+    {
+      "level": 2,
+      "text": "Math: `x = 2 * cos(time)`, `y = 2 * sin(time)`."
+    },
+    {
+      "level": 3,
+      "text": "You'll need to convert Yaw angle to Quaternion (helper functions available or manual calculation)."
+    }
+  ]
+}

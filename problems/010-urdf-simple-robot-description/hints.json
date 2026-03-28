@@ -1,0 +1,18 @@
+{
+  "problem_id": 10,
+  "title": "URDF - Simple Robot Description",
+  "hints": [
+    {
+      "level": 1,
+      "text": "Use `xml.etree.ElementTree.fromstring()` to parse your URDF XML string directly."
+    },
+    {
+      "level": 2,
+      "text": "Example: `root = ET.fromstring(urdf_string)` then `links = root.findall('link')`."
+    },
+    {
+      "level": 3,
+      "text": "Remember to log 'URDF parsed successfully' only after your validation logic passes."
+    }
+  ]
+}

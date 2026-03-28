@@ -1,0 +1,18 @@
+{
+  "problem_id": 7,
+  "title": "C++ - Smart Pointers Node",
+  "hints": [
+    {
+      "level": 1,
+      "text": "`#include \"rclcpp/rclcpp.hpp\"`"
+    },
+    {
+      "level": 2,
+      "text": "Store the node in a shared pointer: `auto node = std::make_shared<MyNode>();`"
+    },
+    {
+      "level": 3,
+      "text": "Constructor: `MyNode() : Node(\"cpp_smart_node\") { ... }`"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "problem_id": 104,
+  "title": "Action Server: Delay Execution",
+  "hints": [
+    {
+      "level": 1,
+      "text": "Use `time.sleep(1)` inside a loop (if threaded) or async sleep."
+    },
+    {
+      "level": 2,
+      "text": "Publish feedback in the loop."
+    }
+  ]
+}

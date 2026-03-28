@@ -1,0 +1,14 @@
+{
+  "problem_id": 3,
+  "title": "Workspace Structure - Package Creation",
+  "hints": [
+    {
+      "level": 1,
+      "text": "Your class should look like: `class MyNode(Node):`"
+    },
+    {
+      "level": 2,
+      "text": "The `super().__init__('node_name')` call is mandatory."
+    }
+  ]
+}

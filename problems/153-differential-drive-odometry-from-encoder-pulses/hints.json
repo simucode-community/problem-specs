@@ -1,0 +1,22 @@
+{
+  "problem_id": 153,
+  "title": "Differential Drive Odometry from Encoder Pulses",
+  "hints": [
+    {
+      "level": 1,
+      "text": "`d_left = (ticks_l - prev_l) * m_per_tick`"
+    },
+    {
+      "level": 2,
+      "text": "`d_center = (d_left + d_right) / 2`"
+    },
+    {
+      "level": 3,
+      "text": "`d_theta = (d_right - d_left) / base_width`"
+    },
+    {
+      "level": 4,
+      "text": "`x += d_center * cos(theta)`"
+    }
+  ]
+}

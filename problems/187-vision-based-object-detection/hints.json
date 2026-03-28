@@ -1,0 +1,18 @@
+{
+  "problem_id": 187,
+  "title": "Vision-Based Object Detection",
+  "hints": [
+    {
+      "level": 1,
+      "text": "Use cv2.dnn.readNet() to load pre-trained models. For YOLO, you need .weights and .cfg files. For faster inference, consider using cv2.dnn.DNN_BACKEND_CUDA if GPU is available"
+    },
+    {
+      "level": 2,
+      "text": "Apply CLAHE (Contrast Limited Adaptive Histogram Equalization) for lighting normalization: clahe = cv2.createCLAHE(clipLimit=2.0, tileGridSize=(8,8)). Apply to the L channel in LAB color space"
+    },
+    {
+      "level": 3,
+      "text": "Cache the camera calibration matrix to avoid reloading. For pose estimation, use cv2.solvePnP with SOLVEPNP_ITERATIVE flag. Apply Non-Maximum Suppression (cv2.dnn.NMSBoxes) to remove duplicate detections with IoU threshold ~0.4"
+    }
+  ]
+}

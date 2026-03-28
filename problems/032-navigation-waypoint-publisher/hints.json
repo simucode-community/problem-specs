@@ -1,0 +1,14 @@
+{
+  "problem_id": 32,
+  "title": "Navigation - Waypoint Publisher",
+  "hints": [
+    {
+      "level": 1,
+      "text": "`PoseStamped.header.frame_id` must be \"map\"."
+    },
+    {
+      "level": 2,
+      "text": "`PoseStamped.pose.orientation.w` should be 1.0 (valid quaternion)."
+    }
+  ]
+}

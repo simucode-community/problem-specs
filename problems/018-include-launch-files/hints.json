@@ -1,0 +1,14 @@
+{
+  "problem_id": 18,
+  "title": "Include Launch Files",
+  "hints": [
+    {
+      "level": 1,
+      "text": "`IncludeLaunchDescription(PythonLaunchDescriptionSource(...))`"
+    },
+    {
+      "level": 2,
+      "text": "Use `get_package_share_directory` to find the path."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "problem_id": 151,
+  "title": "Latency Measurement Utility for ROS2 Topics",
+  "hints": [
+    {
+      "level": 1,
+      "text": "Message Header contains `stamp`. Use it."
+    },
+    {
+      "level": 2,
+      "text": "`rclpy.time.Time.from_msg(msg.header.stamp)`"
+    }
+  ]
+}

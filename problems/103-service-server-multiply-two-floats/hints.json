@@ -1,0 +1,10 @@
+{
+  "problem_id": 103,
+  "title": "Service Server: Multiply Two Floats",
+  "hints": [
+    {
+      "level": 1,
+      "text": "`response.sum = request.a * request.b` (field name might still be `sum` in `AddTwoInts`)."
+    }
+  ]
+}

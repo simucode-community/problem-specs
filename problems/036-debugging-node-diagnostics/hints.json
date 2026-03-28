@@ -1,0 +1,14 @@
+{
+  "problem_id": 36,
+  "title": "Debugging - Node Diagnostics",
+  "hints": [
+    {
+      "level": 1,
+      "text": "`DiagnosticStatus` fields: `level` (byte), `name` (str), `message` (str), `hardware_id` (str), `values` (Key/Value array)."
+    },
+    {
+      "level": 2,
+      "text": "`DiagnosticArray.status` is a list of statuses."
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "problem_id": 9,
+  "title": "C++ vs Python - Performance Comparison",
+  "hints": [
+    {
+      "level": 1,
+      "text": "Use a simple `for` loop or `while` loop inside your node logic (be careful not to block the ROS spin loop, typically you'd put heavy work in a separate thread or timer, but for this simple test, blocking `__init__` or a callback is okay for demonstration)."
+    }
+  ]
+}

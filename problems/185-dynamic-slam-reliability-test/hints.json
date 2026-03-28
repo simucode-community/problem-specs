@@ -1,0 +1,18 @@
+{
+  "problem_id": 185,
+  "title": "Dynamic SLAM Reliability Test",
+  "hints": [
+    {
+      "level": 1,
+      "text": "Use systematic resampling (low-variance resampling) instead of naive multinomial resampling. Only resample when the effective sample size (1/\u03a3w\u00b2) drops below N/2 to prevent particle depletion"
+    },
+    {
+      "level": 2,
+      "text": "During sensor occlusion, rely solely on odometry prediction without the measurement update step. Track time since last valid scan and log warnings when occlusion exceeds 1 second"
+    },
+    {
+      "level": 3,
+      "text": "For loop closure detection, store landmark features (e.g., corner points from LIDAR) with their poses. Use nearest-neighbor matching with a distance threshold to detect revisited locations, then trigger particle redistribution around the matched pose"
+    }
+  ]
+}

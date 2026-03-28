@@ -1,0 +1,14 @@
+{
+  "problem_id": 44,
+  "title": "Lifecycle Node - State Machine",
+  "hints": [
+    {
+      "level": 1,
+      "text": "`from rclpy.lifecycle import Node, State, TransitionCallbackReturn`"
+    },
+    {
+      "level": 2,
+      "text": "Return `TransitionCallbackReturn.SUCCESS` from callbacks."
+    }
+  ]
+}

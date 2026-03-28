@@ -1,0 +1,18 @@
+{
+  "problem_id": 42,
+  "title": "CI/CD - Launch Testing",
+  "hints": [
+    {
+      "level": 1,
+      "text": "Import `launch_testing`"
+    },
+    {
+      "level": 2,
+      "text": "`post_shutdown_test` decorator is useful for checking exit codes."
+    },
+    {
+      "level": 3,
+      "text": "`ActiveTruth` predicate can wait for messages."
+    }
+  ]
+}

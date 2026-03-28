@@ -1,0 +1,18 @@
+{
+  "problem_id": 21,
+  "title": "Services - Basic Service Server",
+  "hints": [
+    {
+      "level": 1,
+      "text": "Import: `from example_interfaces.srv import AddTwoInts`"
+    },
+    {
+      "level": 2,
+      "text": "`self.create_service(Type, 'name', callback)`"
+    },
+    {
+      "level": 3,
+      "text": "Don't forget to return the response object!"
+    }
+  ]
+}

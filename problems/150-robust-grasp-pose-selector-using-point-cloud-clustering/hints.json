@@ -1,0 +1,14 @@
+{
+  "problem_id": 150,
+  "title": "Robust Grasp Pose Selector using Point Cloud Clustering",
+  "hints": [
+    {
+      "level": 1,
+      "text": "Use `pcl` (Point Cloud Library) or `numpy` if available."
+    },
+    {
+      "level": 2,
+      "text": "Centroid = Average(X), Average(Y), Average(Z)."
+    }
+  ]
+}

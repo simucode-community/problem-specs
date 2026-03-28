@@ -1,0 +1,18 @@
+{
+  "problem_id": 11,
+  "title": "Xacro - Parameterized Robot",
+  "hints": [
+    {
+      "level": 1,
+      "text": "Define property: `<xacro:property name=\"prop\" value=\"val\" />`"
+    },
+    {
+      "level": 2,
+      "text": "Use property: `${prop}`"
+    },
+    {
+      "level": 3,
+      "text": "Define macro: `<xacro:macro name=\"my_macro\" params=\"p1 p2\"> ... </xacro:macro>`"
+    }
+  ]
+}

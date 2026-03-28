@@ -1,0 +1,18 @@
+{
+  "problem_id": 2,
+  "title": "Command Line - Topic Echo",
+  "hints": [
+    {
+      "level": 1,
+      "text": "Use `self.create_subscription()`"
+    },
+    {
+      "level": 2,
+      "text": "The callback function receives the message as an argument (e.g., `def listener_callback(self, msg):`)"
+    },
+    {
+      "level": 3,
+      "text": "Access the message content using `msg.data`"
+    }
+  ]
+}

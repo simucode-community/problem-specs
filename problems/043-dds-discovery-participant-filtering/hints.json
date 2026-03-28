@@ -1,0 +1,14 @@
+{
+  "problem_id": 43,
+  "title": "DDS Discovery - Participant Filtering",
+  "hints": [
+    {
+      "level": 1,
+      "text": "This problem might be checking if you know how to set `ROS_DOMAIN_ID` or use `XML` profiles for DDS (FastDDS/CycloneDDS)."
+    },
+    {
+      "level": 2,
+      "text": "For this specific problem, focus on the node Logic mentioned in requirements."
+    }
+  ]
+}

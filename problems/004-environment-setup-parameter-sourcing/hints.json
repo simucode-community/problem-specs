@@ -1,0 +1,14 @@
+{
+  "problem_id": 4,
+  "title": "Environment Setup - Parameter Sourcing",
+  "hints": [
+    {
+      "level": 1,
+      "text": "Use `self.declare_parameter('name', 'default')`"
+    },
+    {
+      "level": 2,
+      "text": "Use `self.get_parameter('name').get_parameter_value().string_value` to read it."
+    }
+  ]
+}

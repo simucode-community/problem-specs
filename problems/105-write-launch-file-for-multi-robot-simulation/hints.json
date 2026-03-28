@@ -1,0 +1,14 @@
+{
+  "problem_id": 105,
+  "title": "Write Launch File for Multi-Robot Simulation",
+  "hints": [
+    {
+      "level": 1,
+      "text": "`Node(..., namespace='robot1')`"
+    },
+    {
+      "level": 2,
+      "text": "Use a `for` loop or `GroupAction` for scalability."
+    }
+  ]
+}

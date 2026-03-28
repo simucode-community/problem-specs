@@ -1,0 +1,14 @@
+{
+  "problem_id": 6,
+  "title": "Python - Type Hints & Logging",
+  "hints": [
+    {
+      "level": 1,
+      "text": "Use standard Python typing: `def func(x: int) -> int:`"
+    },
+    {
+      "level": 2,
+      "text": "Logger: `self.get_logger().warn(...)`"
+    }
+  ]
+}

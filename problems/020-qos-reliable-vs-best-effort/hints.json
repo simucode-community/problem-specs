@@ -1,0 +1,14 @@
+{
+  "problem_id": 20,
+  "title": "QoS - Reliable vs Best Effort",
+  "hints": [
+    {
+      "level": 1,
+      "text": "Import: `from rclpy.qos import QoSProfile, ReliabilityPolicy`"
+    },
+    {
+      "level": 2,
+      "text": "Profile: `QoSProfile(depth=10, reliability=ReliabilityPolicy.BEST_EFFORT)`"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "problem_id": 22,
+  "title": "Actions - Fibonacci with Feedback",
+  "hints": [
+    {
+      "level": 1,
+      "text": "You might need `from rclpy.action import ActionServer`"
+    },
+    {
+      "level": 2,
+      "text": "Check if `action_tutorials_interfaces` or `example_interfaces` is available in the environment for the Action type."
+    }
+  ]
+}

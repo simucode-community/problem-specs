@@ -1,0 +1,14 @@
+{
+  "problem_id": 37,
+  "title": "Data Recording - Custom Bag Recorder",
+  "hints": [
+    {
+      "level": 1,
+      "text": "Use `subprocess.Popen(['ros2', 'bag', 'record', '-o', 'my_bag', '/chatter'])`."
+    },
+    {
+      "level": 2,
+      "text": "Remember to terminate the process."
+    }
+  ]
+}

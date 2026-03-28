@@ -1,0 +1,14 @@
+{
+  "problem_id": 12,
+  "title": "YAML - Parameter Loading",
+  "hints": [
+    {
+      "level": 1,
+      "text": "In this simulated environment, assume the parameters are already loaded into your node's context or you need to declare them."
+    },
+    {
+      "level": 2,
+      "text": "Typically you launch a node with `parameters=[config_file]`."
+    }
+  ]
+}

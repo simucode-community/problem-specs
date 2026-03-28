@@ -1,0 +1,14 @@
+{
+  "problem_id": 5,
+  "title": "Python - OOP Node Creation",
+  "hints": [
+    {
+      "level": 1,
+      "text": "Imports: `from launch import LaunchDescription`, `from launch_ros.actions import Node`"
+    },
+    {
+      "level": 2,
+      "text": "The `Node` action requires parameters: `package`, `executable`, `name`."
+    }
+  ]
+}

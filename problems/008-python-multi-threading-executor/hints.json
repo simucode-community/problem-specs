@@ -1,0 +1,14 @@
+{
+  "problem_id": 8,
+  "title": "Python - Multi-threading Executor",
+  "hints": [
+    {
+      "level": 1,
+      "text": "Import: `from rclpy.executors import MultiThreadedExecutor`"
+    },
+    {
+      "level": 2,
+      "text": "Usage:"
+    }
+  ]
+}

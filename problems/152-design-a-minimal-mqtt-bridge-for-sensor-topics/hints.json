@@ -1,0 +1,14 @@
+{
+  "problem_id": 152,
+  "title": "Design a Minimal MQTT Bridge for Sensor Topics",
+  "hints": [
+    {
+      "level": 1,
+      "text": "Library: `paho-mqtt`."
+    },
+    {
+      "level": 2,
+      "text": "Run the MQTT client loop in a separate thread to avoid blocking ROS spin."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "problem_id": 17,
+  "title": "Conditional Launch",
+  "hints": [
+    {
+      "level": 1,
+      "text": "`condition=IfCondition(LaunchConfiguration('use_gui'))`"
+    },
+    {
+      "level": 2,
+      "text": "Import `IfCondition` from `launch.conditions`."
+    }
+  ]
+}

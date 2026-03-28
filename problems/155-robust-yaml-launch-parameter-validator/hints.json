@@ -1,0 +1,14 @@
+{
+  "problem_id": 155,
+  "title": "Robust YAML Launch Parameter Validator",
+  "hints": [
+    {
+      "level": 1,
+      "text": "Use `yaml.safe_load()`."
+    },
+    {
+      "level": 2,
+      "text": "Try-Catch blocks for type checking."
+    }
+  ]
+}
